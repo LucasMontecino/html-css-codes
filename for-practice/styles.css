@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #C0C0C0;
+}
+
+.container-box {
+    width: 1400px;
+    margin: 20px auto;
+}
+
+.box-model {
+    display: inline-block;
+    border: 6px solid #800000;
+    height: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 400px;
+    background-color: #F0F8FF;
+}
+
+.box-model h5 {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
