@@ -22,13 +22,8 @@ body {
 }
 
 section {
-    float: left;
+    display: inline-block;
     margin: 0 1.5%;
-    width: 30.33%;
+    width: 30%;
     height: 400px;
-}
-
-
-footer {
-    clear: both;
 }
