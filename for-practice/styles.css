@@ -3,29 +3,32 @@
 *::before {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: #C0C0C0;
+    margin-top: 30px;
 }
 
-.container-box {
-    width: 1400px;
-    margin: 20px auto;
-}
-
-.box-model {
-    display: inline-block;
-    border: 6px solid #800000;
-    height: 100px;
-    margin: 20px auto;
-    padding: 10px;
-    width: 400px;
-    background-color: #F0F8FF;
-}
-
-.box-model h5 {
-    font-size: 24px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.container {
+    margin: 0 1.5% 24px 1.5%;
+    padding: 20px;
+    background-color: #006400;
+    color: #fff;
     text-align: center;
+    font-size: 24px;
+    border-radius: 8px;
+}
+
+section {
+    float: left;
+    margin: 0 1.5%;
+    width: 30.33%;
+    height: 400px;
+}
+
+
+footer {
+    clear: both;
 }
