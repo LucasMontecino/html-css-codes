@@ -198,6 +198,16 @@ p {
     margin-bottom: 22px;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #00008B;
+    background-color: #FFEBCD;
+}
+
 /* 
     ----------------------------------------
     ----------------------------------------
