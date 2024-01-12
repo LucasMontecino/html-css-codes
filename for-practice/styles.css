@@ -95,3 +95,16 @@ div {
     font-weight: bold;
     line-height: 100px;
 }
+
+.my-title {
+    text-transform: uppercase;
+
+    padding-right: -125px;
+}
+
+.my-list {
+    margin-left: 20px;
+    list-style: square;
+}
+
+/* hola */
