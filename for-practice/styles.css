@@ -52,3 +52,12 @@ body {
     max-width: 366px;
     width: 100%;
 }
+
+.footer {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #696969;
+    color: #F8F8FF;
+    border-top: 5px solid #ff0000;
+    padding: 16px;
+}
