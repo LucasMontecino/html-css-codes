@@ -1,15 +1,39 @@
 const gallery = [
   {
-    name: "Ronaldinho",
-    nacionality: "Brazil",
+    name: "Andres Iniesta",
+    nacionality: "Spain",
+    foot: "right",
+    img: "./assets/images/image-gallery-1.jpeg",
+  },
+  {
+    name: "Carlos Tevez",
+    nacionality: "Argentina",
     foot: "right",
     img: "./assets/images/image-gallery-2.jpeg",
   },
   {
-    name: "Figo",
-    nacionality: "Portugal",
+    name: "Andrea Pirlo",
+    nacionality: "Italy",
     foot: "right",
-    img: "./assets/images/image-gallery-1.jpeg",
+    img: "./assets/images/image-gallery-3.jpeg",
+  },
+  {
+    name: "Paul Pogba",
+    nacionality: "France",
+    foot: "right",
+    img: "./assets/images/image-gallery-4.jpeg",
+  },
+  {
+    name: "Ruud Van Nistelrooy",
+    nacionality: "Netherlands",
+    foot: "right",
+    img: "./assets/images/image-gallery-5.jpeg",
+  },
+  {
+    name: "Patrice Evra",
+    nacionality: "France",
+    foot: "right",
+    img: "./assets/images/image-gallery-6.jpeg",
   },
 ];
 
