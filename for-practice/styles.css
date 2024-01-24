@@ -45,6 +45,11 @@ body {
     border: 5px solid #ff7f50;
     border-radius: 8px;
     background-color: #0000ff;
+    transition-duration: 0.6s;
+}
+
+.gallery-card:hover {
+    opacity: 0.8
 }
 
 .gallery-card img {
