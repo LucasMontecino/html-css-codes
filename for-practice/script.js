@@ -35,6 +35,24 @@ const gallery = [
     foot: "right",
     img: "./assets/images/image-gallery-6.jpeg",
   },
+  {
+    name: "Samuel Eto'o",
+    nacionality: "Camerun",
+    foot: "right",
+    img: "./assets/images/image-gallery-7.jpeg",
+  },
+  {
+    name: "Thiery Henry",
+    nacionality: "France",
+    foot: "right",
+    img: "./assets/images/image-gallery-8.jpeg",
+  },
+  {
+    name: "Wayne Rooney",
+    nacionality: "England",
+    foot: "right",
+    img: "./assets/images/image-gallery-9.jpeg",
+  },
 ];
 
 const container = document.querySelector(".gallery");
