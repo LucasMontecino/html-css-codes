@@ -59,6 +59,12 @@ const gallery = [
     foot: "right",
     img: "./assets/images/image-gallery-10.jpeg",
   },
+  {
+    name: "Edgar Davids",
+    nacionality: "Netherlands",
+    foot: "right",
+    img: "./assets/images/image-gallery-11.jpeg",
+  },
 ];
 
 const container = document.querySelector(".gallery");
