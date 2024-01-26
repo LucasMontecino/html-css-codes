@@ -53,6 +53,12 @@ const gallery = [
     foot: "right",
     img: "./assets/images/image-gallery-9.jpeg",
   },
+  {
+    name: "Fabien Barthez",
+    nacionality: "French",
+    foot: "right",
+    img: "./assets/images/image-gallery-10.jpeg",
+  },
 ];
 
 const container = document.querySelector(".gallery");
