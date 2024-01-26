@@ -65,6 +65,12 @@ const gallery = [
     foot: "right",
     img: "./assets/images/image-gallery-11.jpeg",
   },
+  {
+    name: "Paul Scholes",
+    nacionality: "England",
+    foot: "right",
+    img: "./assets/images/image-gallery-12.jpeg",
+  },
 ];
 
 const container = document.querySelector(".gallery");
