@@ -39,12 +39,16 @@ const gallery = [
 
 const container = document.querySelector(".gallery");
 
-gallery.forEach((el) => {
-  container.innerHTML += `
-    <div class="gallery-item">
-      <img src="${el.img}" alt="${el.title}" loading="lazy" class="item-img"/>
-      <h2 class="item-title">City Name: ${el.title}</h2>
-      <p class="item-description">Description: ${el.description}</p>
-    </div>
-  `;
-});
+function fillInContainer(array, container) {
+  array.forEach((el) => {
+    container.innerHTML += `
+      <div class="gallery-item">
+        <img src="${el.img}" alt="${el.title}" loading="lazy" class="item-img"/>
+        <h2 class="item-title">City Name: ${el.title}</h2>
+        <p class="item-description">Description: ${el.description}</p>
+      </div>
+    `;
+  });
+}
+
+fillInContainer(gallery, container);
