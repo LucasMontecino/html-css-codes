@@ -19,13 +19,14 @@ html {
 body {
     font-family: 'Sixtyfour', sans-serif;
     color: #FFF8DC;
-    background-color: #2F4F4F;
+    background-color: #FF00FF;
 }
 
 .header {
     text-align: center;
     padding: 16px;
-    background-color: #1E90FF;
+    background-color: #F90ECB;
+    border-bottom: 12px solid white;
 }
 
 .header h1 {

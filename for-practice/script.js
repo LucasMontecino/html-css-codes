@@ -39,18 +39,32 @@ const gallery = [
 
 const container = document.querySelector(".gallery");
 
-function fillInContainer(array, container) {
-  array.forEach((el) => {
-    container.innerHTML += `
+// function fillInContainer(array, container) {
+//   array.forEach((el) => {
+//     container.innerHTML += `
+//       <div class="gallery-item">
+//         <img src="${el.img}" alt="${el.title}" loading="lazy" class="item-img"/>
+//         <h2 class="item-title">City Name: ${el.title}</h2>
+//         <p class="item-description">Description: ${el.description}</p>
+//       </div>
+//     `;
+//   });
+// }
+
+// fillInContainer(gallery, container);
+const setGalleryItems = (arr = gallery) => {
+  container.innerHTML += arr
+    .map(
+      ({ img, title, description }) =>
+        `
       <div class="gallery-item">
-        <img src="${el.img}" alt="${el.title}" loading="lazy" class="item-img"/>
-        <h2 class="item-title">City Name: ${el.title}</h2>
-        <p class="item-description">Description: ${el.description}</p>
+        <img src="${img}" alt="${title}" loading="lazy" class="item-img">
+        <h2 class="item-title">City Name: ${title}</h2>
+        <p class="item-description">Description: ${description}</p>
       </div>
-    `;
-  });
-}
+    `
+    )
+    .join("");
+};
 
-fillInContainer(gallery, container);
-
-
+setGalleryItems();
