@@ -73,6 +73,7 @@ body {
     display: grid;
     grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem);
     grid-template-rows: 50rem;
+
 }
 
 .aside {
@@ -93,6 +94,7 @@ body {
     align-items: center;
     font-size: 2rem;
     color: var(--light-gray);
+    max-width: 2100px;
 }
 
 .footer {
@@ -101,6 +103,13 @@ body {
     color: var(--white);
     text-align: center;
     font-size: 2rem;
+}
+
+.img-1 {
+    width: 1580px;
+    height: auto;
+    object-fit: cover;
+    object-position: top;
 }
 
 @media only screen and (max-width: 640px) {
