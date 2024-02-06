@@ -26,7 +26,10 @@ body {
 }
 
 .header h1,
-.main-nav {
+.main-nav,
+.footer,
+.aside,
+.gallery {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -64,6 +67,40 @@ body {
 
 .nav-links:hover {
     color: var(--light-blue);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem);
+    grid-template-rows: 50rem;
+}
+
+.aside {
+    background-color: var(--gold);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--dark-gray);
+}
+
+.gallery {
+    background-color: var(--dark-gray);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--light-gray);
+}
+
+.footer {
+    background-color: var(--black);
+    padding: 2rem;
+    color: var(--white);
+    text-align: center;
+    font-size: 2rem;
 }
 
 @media only screen and (max-width: 640px) {
