@@ -90,11 +90,20 @@ body {
     background-color: var(--dark-gray);
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 20px 10px;
     font-size: 2rem;
     color: var(--light-gray);
-    max-width: 2100px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 750px;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .footer {
@@ -105,12 +114,7 @@ body {
     font-size: 2rem;
 }
 
-.img-1 {
-    width: 1580px;
-    height: auto;
-    object-fit: cover;
-    object-position: top;
-}
+
 
 @media only screen and (max-width: 640px) {
     .main-nav {
